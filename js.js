@@ -68,7 +68,7 @@ console.log(phoneUsers);
 
 console.log(totalBalanceUserPhone);
 
-//all user balance
+//all users balance
 
 let balanceUser = users.filter(
   (user) => parseFloat(user.balance.replace("$", "").replace(",", "")) > 0
